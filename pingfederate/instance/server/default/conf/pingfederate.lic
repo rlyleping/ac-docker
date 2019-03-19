@@ -1,0 +1,13 @@
+ID=1153838
+Organization=68
+Product=PingFederate
+Version=9.2
+IssueDate=2019-03-19
+EnforcementType=3
+ExpirationDate=2019-12-31
+Tier=Perpetual
+SaasProvisioning=true
+WSTrustSTS=true
+OAuth=true
+SignCode=FF07
+Signature=302C021421665B30F5321A0FE31050064070A15AECD872A9021465F377D32D3F1BDB7687DD1D59B576A38F370F74
