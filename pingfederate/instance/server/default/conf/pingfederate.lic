@@ -1,0 +1,16 @@
+ID=1147617
+Organization=68
+Product=PingFederate
+Version=9.2
+IssueDate=2019-03-15
+EnforcementType=5
+ExpirationDate=2019-03-29
+ConnectionLimit=3
+NodeLimit=3
+Tier=Free
+SaasProvisioning=true
+WSTrustSTS=true
+OAuth=true
+GracePeriod=0
+SignCode=FF3F
+Signature=302D0215008854B9094F25115F48844BC440977A8258CAA8B002145E8597DEC3563E126230ECBE8808956C137F4C92
