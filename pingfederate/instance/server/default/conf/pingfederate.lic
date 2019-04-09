@@ -1,0 +1,13 @@
+ID=1181400
+Organization=68
+Product=PingFederate
+Version=9.2
+IssueDate=2019-04-9
+EnforcementType=2
+ExpirationDate=2019-06-9
+Tier=Subscription
+SaasProvisioning=true
+WSTrustSTS=true
+OAuth=true
+SignCode=FF07
+Signature=302E021500869F9D99E1ED52E3D5E32113E15172231169C6640215008CA0F2170781BF687CEBF9967B5117771FE8516B
