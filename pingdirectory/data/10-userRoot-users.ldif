@@ -1,9 +1,3 @@
-version: 1
-
-dn: dc=anycompany,dc=co
-objectClass: domain
-objectClass: top
-dc: anycompany
 
 dn: uid=admin,dc=anycompany,dc=co
 objectClass: inetOrgPerson
