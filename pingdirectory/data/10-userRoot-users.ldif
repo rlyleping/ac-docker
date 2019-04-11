@@ -35,7 +35,7 @@ givenName: Anett
 homePhone: +1 295 940 2750
 initials: AOR
 l: Rhinelander
-mail: user.0@example.com
+mail: user.0@anycompany.co
 mobile: +1 164 286 4924
 pager: +1 604 109 3407
 postalAddress: Anett Rezzik$22411 Birch Street$Rhinelander, PA  98160
@@ -62,7 +62,7 @@ givenName: Alessandra
 homePhone: +1 006 603 9520
 initials: AES
 l: Paducah
-mail: user.8@example.com
+mail: user.8@anycompany.co
 mobile: +1 894 073 2994
 pager: +1 488 422 0506
 postalAddress: Alessandra Slinkard$66610 Sunset Street$Paducah, AZ  72012
@@ -88,7 +88,7 @@ givenName: Romina
 homePhone: +1 091 438 1890
 initials: RJV
 l: Alexandria
-mail: user.1@example.com
+mail: user.1@anycompany.co
 mobile: +1 650 622 7719
 pager: +1 472 824 8704
 postalAddress: Romina Valerio$84095 Maple Street$Alexandria, NE  39160
@@ -115,7 +115,7 @@ givenName: Billye
 homePhone: +1 399 367 9609
 initials: BEZ
 l: Birmingham
-mail: user.2@example.com
+mail: user.2@anycompany.co
 mobile: +1 045 834 8100
 pager: +1 997 492 6754
 postalAddress: Billye Zaleski$02904 Woodland Street$Birmingham, MN  21554
@@ -142,7 +142,7 @@ givenName: Mort
 homePhone: +1 000 456 2019
 initials: MGK
 l: Minneapolis
-mail: user.10@example.com
+mail: user.10@anycompany.co
 mobile: +1 739 007 0432
 pager: +1 009 621 3545
 postalAddress: Mort Kurio$34002 Tenth Street$Minneapolis, VT  31265
@@ -169,7 +169,7 @@ givenName: Cho
 homePhone: +1 673 146 2000
 initials: CYA
 l: Watertown
-mail: user.3@example.com
+mail: user.3@anycompany.co
 mobile: +1 837 650 2500
 pager: +1 863 739 1102
 postalAddress: Cho Andros$04724 Center Street$Watertown, DE  48299
@@ -196,7 +196,7 @@ givenName: Abagael
 homePhone: +1 539 780 2958
 initials: ARS
 l: Fort Worth
-mail: user.4@example.com
+mail: user.4@anycompany.co
 mobile: +1 306 351 0544
 pager: +1 642 006 0247
 postalAddress: Abagael Stellwag$28818 Walnut Street$Fort Worth, IA  00220
@@ -223,7 +223,7 @@ givenName: Gilles
 homePhone: +1 470 664 0850
 initials: GKB
 l: Urbana
-mail: user.5@example.com
+mail: user.5@anycompany.co
 mobile: +1 918 141 3270
 pager: +1 032 521 7743
 postalAddress: Gilles Benzie$10076 Wilson Street$Urbana, UT  35266
@@ -250,7 +250,7 @@ givenName: Fawnia
 homePhone: +1 538 763 1811
 initials: FDB
 l: Glendive
-mail: user.6@example.com
+mail: user.6@anycompany.co
 mobile: +1 803 725 2508
 pager: +1 646 154 4334
 postalAddress: Fawnia Beattie$35490 Thirteenth Street$Glendive, IN  25692
@@ -277,7 +277,7 @@ givenName: Digby
 homePhone: +1 005 370 0244
 initials: DAS
 l: Salisbury
-mail: user.7@example.com
+mail: user.7@anycompany.co
 mobile: +1 689 801 1409
 pager: +1 190 451 5765
 postalAddress: Digby Shaughnessy$94660 Hillcrest Street$Salisbury, GA  51821
@@ -304,7 +304,7 @@ givenName: Karly
 homePhone: +1 489 385 3839
 initials: KJG
 l: Sacramento
-mail: user.9@example.com
+mail: user.9@anycompany.co
 mobile: +1 520 576 7900
 pager: +1 389 306 1582
 postalAddress: Karly Guttman$36088 Mill Street$Sacramento, MI  26075
