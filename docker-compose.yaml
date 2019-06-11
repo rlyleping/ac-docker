@@ -34,7 +34,6 @@ services:
       - SERVER_PROFILE_URL=https://github.com/rlyleping/ac-docker.git
       - SERVER_PROFILE_PATH=pingdirectory
       - USER_BASE_DN=dc=anycompany,dc=co
-      - TOPOLOGY_PREFIX=03-full-stack_pingdirectory_
       - VERBOSE=true
     ports:
       - 1636-1646:636
