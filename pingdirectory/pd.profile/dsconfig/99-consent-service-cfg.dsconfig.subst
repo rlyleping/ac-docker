@@ -226,16 +226,16 @@ dsconfig set-http-servlet-extension-prop \
 #
 # Add an example consent definition with a localization.
 #
-#dsconfig create-consent-definition \
-#  --definition-name email_newsletter \
-#  --set "display-name:Email newsletter"
-#
-#dsconfig create-consent-definition-localization \
-#  --definition-name email_newsletter \
-#  --localization-name en-US \
-#  --set version:1.0 \
-#  --set "data-text:Your email address" \
-#  --set "purpose-text:To receive periodic newsletter updates"
+dsconfig create-consent-definition \
+  --definition-name email_newsletter \
+  --set "display-name:Email newsletter"
+
+dsconfig create-consent-definition-localization \
+  --definition-name email_newsletter \
+  --localization-name en-US \
+  --set version:1.0 \
+  --set "data-text:Your email address" \
+  --set "purpose-text:To receive periodic newsletter updates"
 
 #
 # Configure an LDAP audit logger to record changes to Consent Service resources.
