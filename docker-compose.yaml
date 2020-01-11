@@ -4,9 +4,12 @@ services:
   pingaccess:
     image: pingidentity/pingaccess
     command: wait-for pingfederate:9031 -t 420 -- entrypoint.sh start-server
+    env_file:
+      - ~/.pingidentity/devops
     environment: 
       - SERVER_PROFILE_URL=https://github.com/rlyleping/ac-docker.git
       - SERVER_PROFILE_PATH=pingaccess
+      - PING_IDENTITY_ACCEPT_EULA=YES
     ports:
       - 443:443
       - 9000:9000
@@ -16,9 +19,13 @@ services:
   pingfederate:
     image: pingidentity/pingfederate
     command: wait-for pingdirectory:389 -t 300 -- entrypoint.sh start-server
+    env_file:
+      - ~/.pingidentity/devops
+      - ./env_vars
     environment:
       - SERVER_PROFILE_URL=https://github.com/rlyleping/ac-docker.git
       - SERVER_PROFILE_PATH=pingfederate
+      - PING_IDENTITY_ACCEPT_EULA=YES
     ports:
       - 9031:9031
       - 9999:9999
@@ -30,11 +37,15 @@ services:
 
   pingdirectory:
     image: pingidentity/pingdirectory
+    env_file:
+      - ~/.pingidentity/devops
+      - ./env_vars
     environment:
       - SERVER_PROFILE_URL=https://github.com/rlyleping/ac-docker.git
       - SERVER_PROFILE_PATH=pingdirectory
       - USER_BASE_DN=dc=anycompany,dc=co
       - VERBOSE=true
+      - PING_IDENTITY_ACCEPT_EULA=YES
     ports:
       - 1636-1646:636
       - 1443-1453:443
@@ -43,6 +54,8 @@ services:
   
   pingdataconsole:
     image: pingidentity/pingdataconsole
+    env_file:
+      - ~/.pingidentity/devops
     ports:
       - 8080:8080
     networks: 
