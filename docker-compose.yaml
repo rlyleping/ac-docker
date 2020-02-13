@@ -2,7 +2,7 @@ version: "3.1"
 
 services:
   pingaccess:
-    image: pingidentity/pingaccess
+    image: pingidentity/pingaccess:latest
     command: wait-for pingfederate:9031 -t 420 -- entrypoint.sh start-server
     env_file:
       - ~/.pingidentity/devops
@@ -17,7 +17,7 @@ services:
       - pingnet-dmz
 
   pingfederate:
-    image: pingidentity/pingfederate
+    image: pingidentity/pingfederate:latest
     command: wait-for pingdirectory:389 -t 300 -- entrypoint.sh start-server
     env_file:
       - ~/.pingidentity/devops
@@ -36,7 +36,7 @@ services:
           #   - pingfederate-admin
 
   pingdirectory:
-    image: pingidentity/pingdirectory
+    image: pingidentity/pingdirectory:latest
     env_file:
       - ~/.pingidentity/devops
       - ./env_vars
