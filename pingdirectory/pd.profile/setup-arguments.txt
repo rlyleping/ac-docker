@@ -19,6 +19,7 @@
     --verbose \
     --acceptLicense \
     --skipPortCheck \
+    --licenseKeyFile ${PING_SERVER_ROOT}/PingDirectory.lic \
     --location "${LOCATION}" \
     --instanceName ${HOSTNAME} \
     --ldapPort ${LDAP_PORT} \
