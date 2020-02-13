@@ -39,7 +39,6 @@ services:
     image: pingidentity/pingdirectory:latest
     env_file:
       - ~/.pingidentity/devops
-      - ./env_vars
     environment:
       - SERVER_PROFILE_URL=https://github.com/rlyleping/ac-docker.git
       - SERVER_PROFILE_PATH=pingdirectory
