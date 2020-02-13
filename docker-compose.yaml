@@ -45,7 +45,6 @@ services:
       - USER_BASE_DN=dc=anycompany,dc=co
       - VERBOSE=true
       - PING_IDENTITY_ACCEPT_EULA=YES
-      - LICENSE_VERSION=8.0
     ports:
       - 1636-1646:636
       - 1443-1453:443
